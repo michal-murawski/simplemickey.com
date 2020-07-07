@@ -13,6 +13,7 @@ tags: cypress,e2e
 
 ## Cons
 
-1. Using `Cypress` `command` method which extends `cy` object prototype. Migh looks friendly in the begining but in a long term can be harder to maintain.
-2. Custom **async/await** implementation. We need to adjust to a specific way of handling *async* actions/commands.
-3. You could say it is not 100% user behavior as Cypress is using JavaScript to execute its commands. Actions like clicking browser Prompt/Confirm window can be hard.
+1. Using `Cypress` `command` method which extends `cy` object prototype. Migh looks friendly in the begining but in a long term can be harder to maintain ([article](https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/)).
+2. Custom **async/await** implementation. We need to adjust to a specific way of handling *async* actions/commands ([article](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Commands-Are-Asynchronous)).
+3. You could say it is not 100% user behavior as Cypress is using JavaScript to execute its commands. Actions like clicking browser Prompt/Confirm window can be hard ([gh issue](https://github.com/cypress-io/cypress/issues/376)).
+4. Still, quite a lot opened issues: [gh issues](https://github.com/cypress-io/cypress/issues)
