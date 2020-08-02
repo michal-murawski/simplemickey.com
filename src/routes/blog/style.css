@@ -29,7 +29,7 @@
   display: block;
   max-width: 100%;
   color: rgb(57, 58, 52);
-  font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -53,7 +53,7 @@ code.inline {
   max-width: 100%;
   overflow: scroll;
   color: rgb(57, 58, 52);
-  font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier;
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -106,7 +106,7 @@ code.inline {
   width: 65%;
 }
 
-.inlineImageContainer{
+.inlineImageContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;

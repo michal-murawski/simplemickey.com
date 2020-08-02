@@ -14,7 +14,7 @@
   left: 0px;
   content: '';
   width: 75%;
-  border-bottom: 2px solid #FFC107;
+  border-bottom: 2px solid #ffc107;
 }
 
 .pageBody {
@@ -22,7 +22,8 @@
   flex: 1;
 }
 
-.pageContact input, .pageContact textarea {
+.pageContact input,
+.pageContact textarea {
   width: 100%;
   font-size: 1.1rem;
   padding: 8px;
@@ -44,7 +45,7 @@
 }
 
 @media all and (max-width: 728px) {
-	.formWrapper {
-		flex-direction: column;
+  .formWrapper {
+    flex-direction: column;
   }
 }

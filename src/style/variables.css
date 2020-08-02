@@ -1,0 +1,11 @@
+:root {
+  --black-1: #141618;
+  --white-1: #fff;
+  --grey-1: #b5b3b3;
+  --grey-2: #eee;
+
+  --header-background: var(--black-1);
+
+  --subtle-text: var(--grey-1);
+  --normal-text: var(--grey-2);
+}
