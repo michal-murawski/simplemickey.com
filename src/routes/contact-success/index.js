@@ -1,4 +1,4 @@
-import style from './style.css';
+import style from '././style';
 
 const photographs = () => (
   <div class={style.pageContact}>

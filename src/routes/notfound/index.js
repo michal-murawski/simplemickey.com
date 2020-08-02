@@ -1,4 +1,4 @@
-import style from './style.css';
+import style from '././style';
 import { Link } from 'preact-router/match';
 
 const Notfound = () => (

@@ -3,7 +3,7 @@ import { usePrerenderData } from '@preact/prerender-data-provider';
 import Markdown from 'markdown-to-jsx';
 import { FormattedCodeBlock } from './formatted-code-block';
 
-import style from './style.css';
+import style from '././style';
 console.log('test');
 const blogs = (props) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks

@@ -1,6 +1,6 @@
 import { Link } from 'preact-router';
 import { usePrerenderData } from '@preact/prerender-data-provider';
-import style from './style.css';
+import style from '././style';
 
 const blogs = (props) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
