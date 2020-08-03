@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import { Suspense } from 'preact/compat';
 import { usePrerenderData } from '@preact/prerender-data-provider';
 import Markdown from 'markdown-to-jsx';

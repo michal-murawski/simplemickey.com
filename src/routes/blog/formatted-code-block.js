@@ -46,6 +46,8 @@ export function FormattedCodeBlock(props) {
 
 function getFormattedCodeBlock(SyntaxHighlighter, languageHighlighter, language, setState, resolve, props) {
   language && SyntaxHighlighter.registerLanguage(language, languageHighlighter);
+  console.log(language);
+  console.log(props.children);
   setState(
     <SyntaxHighlighter language={language} style={vs}>
       {props.children}

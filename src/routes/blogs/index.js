@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import { Link } from 'preact-router';
 import { usePrerenderData } from '@preact/prerender-data-provider';
 import style from '././style';
